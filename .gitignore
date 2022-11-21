@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# IDEs and Text Editors
+.vscode/
+
 # C extensions
 *.so
 
@@ -101,9 +104,13 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Datasets
+*.data
+
 # Environments
 .env
 .venv
+.pyenv
 env/
 venv/
 ENV/
